@@ -10,31 +10,30 @@ This project is a frontend implementation of a chat application using React. It 
 
 
 # Project Structure
-chat-app/
-  ├── public/
-  │   ├── index.html
-  │   └── ...
-  ├── src/
-  │   ├── assets/
-  │   │   ├── images/
-  │   │   └── ...
-  │   ├── components/
-  │   │   ├── Conversation.js
-  │   │   ├── ConversationList.js
-  │   │   ├── LeftSidebar.js
-  │   │   ├── NewConversationModal.js
-  │   ├── reducers/
-  │   │   ├── store.js
-  │   │   └── reducer.js
-  │   ├── styles/
-  │   │   ├── index.css
-  │   │   └── ...
-  │   ├── App.js
-  │   ├── index.js
-  │   └── ...
-  ├── package.json
-  ├── .gitignore
-  └── README.md
+   chat-app/
+├── public/
+│ ├── index.html
+│ └── ...
+├── src/
+│ ├── assets/
+│ │ ├── images/
+│ │ └── ...
+│ ├── components/
+│ │ ├── Conversation.js
+│ │ ├── ConversationList.js
+│ │ ├── LeftSidebar.js
+│ │ ├── NewConversationModal.js
+│ ├── reducers/
+│ │ ├── store.js
+│ │ └── reducer.js
+│ ├── data/
+│ │ ├── dummyData.js
+│ ├── App.js
+│ ├── index.js
+│ └── styles.css
+├── package.json
+├── .gitignore
+└── README.md
 
 # Usage
 Click on a conversation in the left sidebar to view and send messages in the right-side view.
