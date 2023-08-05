@@ -5,7 +5,7 @@ import NewConversationModal from "./NewConversationModal";
 
 const LeftSidebar = () => {
   const [showModal, setShowModal] = useState(false); // contact list modal
-  
+
   const { contacts } = useSelector((state) => state.dummyData);
 
   const handleOpenModal = () => {
@@ -19,7 +19,7 @@ const LeftSidebar = () => {
   return (
     <div className="conversation-list">
       <h2>Conversations</h2>
-      <button onClick={handleOpenModal}>Create conversation</button>
+      <button onClick={handleOpenModal}>New conversation</button>
       <ConversationList contacts={contacts} />
       {showModal && <NewConversationModal contacts={contacts} onClose={handleCloseModal} />}
     </div>

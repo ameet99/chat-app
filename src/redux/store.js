@@ -11,7 +11,7 @@ const rootReducer = combineReducers({
 
 // If you want to reset redux state then change the key (example: root1.5, abc, xyz1.2)
 const persistConfig = {
-  key: "root1.7",
+  key: "root1.1",
   storage,
 };
 
