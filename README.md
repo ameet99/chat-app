@@ -10,7 +10,6 @@ This project is a frontend implementation of a chat application using React. It 
 
 
 # Project Structure
-
 chat-app/
 ├── public/
 │ ├── index.html
